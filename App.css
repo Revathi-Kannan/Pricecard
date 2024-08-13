@@ -1,0 +1,61 @@
+
+#root {
+
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+
+
+.pricecards{
+  border: 3px solid black;
+  padding: 40px;
+  border-radius: 5%;
+  margin:5px;
+  width: 240px;
+  background-color: rgb(214, 218, 111);
+  box-shadow: 3px 3px 8px
+}
+
+.type{
+  font-weight: bolder;
+  opacity: 0.5;
+}
+.active{
+  opacity: normal;
+}
+
+.active::before{
+  content: "✅";
+}
+.Inactive{
+  opacity: 0.5;
+  
+}
+.Inactive::before{
+  content:"❌";
+}
+#align{
+  text-align: left;
+}
+
+button{
+  border: solid black;
+  padding: 3px;
+  width: 90px;
+  border-radius: 10px;
+  margin: 5px;
+  height: 40px;
+  background-color: antiquewhite;
+
+}
+
+button:hover{
+  cursor: pointer;
+}
+
+.All{
+  display: flex;
+  justify-content: center;
+}
